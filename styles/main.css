@@ -1,0 +1,42 @@
+.main{
+    width: 100%;
+    background-color: black;
+    height: calc(100vh - 80px);
+    background-image: url(../images/programador.png);
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.main h1{
+    color: #ffffff;
+    font-size: 54px;
+}
+
+.main p{
+    font-size: 24px;
+    font-style: italic;
+    color: #1e96fc;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.main a{
+    text-decoration: none;
+}
+
+ .btn{
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+
+    transition: .5s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}

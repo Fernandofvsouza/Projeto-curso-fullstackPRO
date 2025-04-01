@@ -1,0 +1,29 @@
+header{
+    max-width: 100vw;
+    height: 80px;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 24px;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #ddd;
+    padding: 20px;
+}
+
+header ul li a:hover{
+    color: white;
+}
